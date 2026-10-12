@@ -1,6 +1,5 @@
-// import a css file containig article styles
 import './Article.css';
-// Create an Article function returning the HTML of article block
+
 const Article = () => (
   <article className="article">
     <h2 className="article__title">Headline</h2>
@@ -59,6 +58,5 @@ const Article = () => (
     </p>
   </article>
 );
-// Add a default export statement for Article component to use it in the other files
 
 export default Article;
